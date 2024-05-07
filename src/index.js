@@ -17,6 +17,3 @@ connectDB()
   });
 
 
-  app.get('/',(req,res) => {
-    res.send("Book Store Server Is Running")
-  })
