@@ -4,7 +4,7 @@ import cors from "cors";
 
 const app = express();
 app.get('/',(req,res) => {
-  res.send("Book Store Server Is Running")
+  res.send("Book Store Server Is Running\nto get all books hit api/getbooks")
 })
 app.use(
   cors({
